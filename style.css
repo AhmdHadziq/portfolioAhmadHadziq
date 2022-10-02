@@ -54,20 +54,22 @@ body {
 .hero_area {
   position: relative;
 }
-
 .sub_page .hero_area {
   height: auto;
 }
-
-.hero_area.sub_pages {
+.hero_area.sub-page {
   height: auto;
 }
-
 .header_section {
   padding: 10px 0;
 }
+
+.header_section .navbar-expand-lg {
+  background: linear-gradient(135deg, #a454fd, #2b05df);
+}
+
 .navbar-light .navbar-brand span {
-  color: #ffc107;
+  color: #ffd451;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
@@ -684,7 +686,7 @@ a:focus {
 }
 
 .contact_items .item .img-box.box-1 {
-  background-image: url(images/location2.png);
+  background-image: url(images/tele.png);
 }
 
 .contact_items .item .img-box.box-2 {
